@@ -21,7 +21,6 @@ class Weixin extends Controller{
 
     }
     public function index(){
-	    echo 13221;exit;
         //获得参数 signature nonce token timestamp echostr
         $nonce = input("nonce");
         $token = "weixin";
